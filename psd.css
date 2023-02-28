@@ -1,0 +1,52 @@
+#topbar {
+    background-color: #19232f;
+    color: darkgray;
+    width: 1920px;
+    height: 40px;
+    text-align: center;
+
+}
+
+#fb {
+    color: #31aae2;
+    margin-left: 10px;
+}
+
+#num {
+    margin-top: 9px;
+    margin-left: -210px;
+
+}
+
+#numicon {
+    margin-top: 12px;
+    margin-left: -100px;
+}
+
+#homeicon {
+    margin-top: 12px;
+    margin-left: -100px;
+}
+
+#add {
+    margin-top: 9px;
+    margin-left: -168px;
+
+}
+
+#mail {
+    margin-left: -210px;
+    margin-top: 7px;
+
+}
+
+#mailicon {
+    margin-top: 12px;
+    margin-left: -100px;
+}
+
+#icon {
+    margin-left: 10px;
+    margin-top: 12px;
+
+}
