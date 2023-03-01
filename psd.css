@@ -2,7 +2,7 @@
     background-color: #19232f;
     color: darkgray;
     width: 1920px;
-    height: 40px;
+    height: 42px;
     text-align: center;
 
 }
@@ -48,5 +48,9 @@
 #icon {
     margin-left: 10px;
     margin-top: 12px;
+}
 
+#tdec {
+    text-decoration: none;
+    color: darkgra;
 }
