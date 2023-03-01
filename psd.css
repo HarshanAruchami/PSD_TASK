@@ -1,9 +1,10 @@
 #topbar {
     background-color: #19232f;
     color: darkgray;
-    width: 1920px;
+    max-width: 1920px;
     height: 42px;
     text-align: center;
+
 
 }
 
@@ -13,44 +14,87 @@
 }
 
 #num {
-    margin-top: 9px;
-    margin-left: -210px;
+    margin-top:12px;
+    margin-left: -257px;
+    font-size: 12px;
+    font: weight 5px;
 
 }
 
+
 #numicon {
     margin-top: 12px;
-    margin-left: -100px;
+    margin-left: -180px;
 }
 
 #homeicon {
     margin-top: 12px;
-    margin-left: -100px;
+    margin-left: -50px;
 }
 
 #add {
-    margin-top: 9px;
-    margin-left: -168px;
+    margin-top: 12px;
+    margin-left: -225px;
+    font-size: 12px;
+    font: weight 5px;
 
 }
 
 #mail {
-    margin-left: -210px;
-    margin-top: 7px;
+    margin-left: -255px;
+    margin-top: 12px;
+    font-size: 12px;
+    font: weight 5px;
 
 }
 
 #mailicon {
     margin-top: 12px;
-    margin-left: -100px;
+    margin-left: -220px;
 }
 
 #icon {
     margin-left: 10px;
     margin-top: 12px;
 }
+.col{
+    margin-left: 200px;
+}
 
 #tdec {
     text-decoration: none;
     color: darkgra;
+}
+
+#logo {
+    width: 170px;
+    height: 20px;
+
+
+}
+
+#atag {
+    margin-left: 110px;
+
+}
+
+#navtxt {
+    margin-top: -30px;
+    margin-bottom: 20px;
+    margin-left: 575px;
+    width: 300px;
+    display: flex;
+
+}
+#navtext {
+    margin-top: -30px;
+    margin-bottom: 20px;
+    width: 300px;
+    display: flex;
+
+}
+
+#nav {
+    padding-top: 29px;
+    position: sticky;
 }
