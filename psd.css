@@ -143,6 +143,7 @@
     padding-top: 100px;
     background-color: #fafafa;
     max-width: 1920px;
+    height: 477px;
 }
 
 #camera {
@@ -167,19 +168,52 @@
 
 #camlogo {
     text-align: center;
-    margin-left: 180px;
+    margin-left: 140px;
     margin-right: 00px;
-    margin-top: 27px;
+    margin-top: 18px;
 }
 
 #bulblogo {
     text-align: center;
+    margin-top: 3px;
 }
 
 #locklogo {
     text-align: center;
+    margin-right: 140px;
+    margin-top: 5px;
 }
 
 #notelogo {
     text-align: center;
+    margin-top: 10px;
+   
+}
+#dd{
+    margin-top: -15px;
+}
+#butons{
+    text-align: center;
+}
+#empman{
+    width:600px;
+    height:400px;
+}
+
+#women{
+    margin-left: 8px;
+}
+#tool{
+    margin-top: 8px;
+    margin-left: 8px;
+}
+#wordings{
+    text-align: left;
+    margin-left: 180px;
+    margin-top: 40px;
+}
+#starepic{
+    margin-right: 180px;
+    width: 400px;
+    height: 340px;
 }
