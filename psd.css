@@ -262,25 +262,30 @@
     height: 340px;
 }
 
-.top_cover{
+.top_cover {
     width: 250px;
     height: 130px;
 }
-#pck1{
+
+#pck1 {
     margin-right: 22px;
     text-align: center;
     width: 250px;
 }
-#pck2{
-   margin-top: 200px;
+
+#pck2 {
+    margin-top: 200px;
 }
-#pck3{
-margin-top: 0px;
+
+#pck3 {
+    margin-top: 0px;
 }
-#pck2{
+
+#pck2 {
     margin-right: 22px;
     margin-top: 15px;
 }
+
 .packages {
     padding: 70px;
     display: flex;
@@ -302,8 +307,9 @@ margin-top: 0px;
     margin-bottom: 1em;
     color: white;
 }
-li{
-    list-style-type:none;
+
+li {
+    list-style-type: none;
 }
 
 .pck_cover {
@@ -311,7 +317,8 @@ li{
     justify-content: center;
     align-items: center;
 }
-#topline{
+
+#topline {
     background-color: #cccccc;
     padding-left: 77px;
     padding-right: 77px;
@@ -321,23 +328,25 @@ li{
     color: black;
     margin-top: -31px;
 }
-.bottom_cover{
+
+.bottom_cover {
     color: white;
     background-color: black;
     padding-right: 20px;
     padding-left: 20px;
     text-align: center;
-    padding-top: 7px ;
+    padding-top: 7px;
     padding-bottom: 1px;
 
 }
-.bottom_cover_green{
+
+.bottom_cover_green {
     color: white;
-    background-color:#009688 ;
+    background-color: #009688;
     padding-right: 20px;
     padding-left: 20px;
     text-align: center;
-    padding-top: 7px ;
+    padding-top: 7px;
     padding-bottom: 1px;
 
 }
@@ -353,12 +362,11 @@ li{
     margin-top: 80px;
 }
 
-.pck_cover .middle{
+.pck_cover .middle {
     background-color: #cccccc;
     text-align: center;
-    padding-right: 20px;
     padding-top: 50px;
-    padding-bottom: 2.5em;
+    padding-bottom: 7px;
 }
 
 .posts {
@@ -492,4 +500,17 @@ li{
 #mem4 {
     margin-left: 20px;
     margin-right: 100px;
+}
+
+hr {
+    max-width: 1000px;
+    float: initial;
+
+}
+
+/* map styles */
+
+#mapimg{
+    margin-left: -12px;
+    
 }
