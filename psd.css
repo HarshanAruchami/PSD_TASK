@@ -165,9 +165,11 @@
     margin-right: 20px;
     margin-top: 16px
 }
-#miclogo{
+
+#miclogo {
     margin-right: 100px;
 }
+
 #speckslogo {
     margin-top: 29px;
 }
@@ -175,7 +177,8 @@
 #settinglogo {
     margin-top: 18px;
 }
-#heartlogo{
+
+#heartlogo {
     margin-top: 20px;
     margin-right: 100px;
 }
@@ -259,10 +262,27 @@
     height: 340px;
 }
 
-
-
+.top_cover{
+    width: 250px;
+    height: 130px;
+}
+#pck1{
+    margin-right: 22px;
+    text-align: center;
+    width: 250px;
+}
+#pck2{
+   margin-top: 200px;
+}
+#pck3{
+margin-top: 0px;
+}
+#pck2{
+    margin-right: 22px;
+    margin-top: 15px;
+}
 .packages {
-    padding: 10px;
+    padding: 70px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -271,6 +291,7 @@
     height: 100%;
     opacity: 1;
     background-image: url('./assets/backgrounroom.png');
+    background-color: black;
     background-repeat: no-repeat;
     background-position: 50% 0;
     background-size: cover;
@@ -281,13 +302,46 @@
     margin-bottom: 1em;
     color: white;
 }
-
+li{
+    list-style-type:none;
+}
 
 .pck_cover {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+#topline{
+    background-color: #cccccc;
+    padding-left: 77px;
+    padding-right: 77px;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    text-align: center;
+    color: black;
+    margin-top: -31px;
+}
+.bottom_cover{
+    color: white;
+    background-color: black;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+    padding-top: 7px ;
+    padding-bottom: 1px;
+
+}
+.bottom_cover_green{
+    color: white;
+    background-color:#009688 ;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+    padding-top: 7px ;
+    padding-bottom: 1px;
+
+}
+
 
 .pck_cover .top_cover {
     background-color: black;
@@ -296,10 +350,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 80px;
 }
 
-.pck_cover .middle {
-    background-color: white;
+.pck_cover .middle{
+    background-color: #cccccc;
+    text-align: center;
+    padding-right: 20px;
+    padding-top: 50px;
+    padding-bottom: 2.5em;
 }
 
 .posts {
@@ -385,10 +444,12 @@
     background-color: #009688;
     color: white;
 }
-#clr{
+
+#clr {
     color: #009688;
 }
-#call{
+
+#call {
     background-color: black;
     color: white;
     padding-left: 100px;
@@ -396,17 +457,39 @@
     padding-bottom: 45px;
     display: flex;
 }
-#txta{
+
+#txta {
     text-align: left;
 }
-#btncall{
+
+#btncall {
     margin-right: 200px;
     margin-top: 30px;
     margin-left: 120px;
 }
-#meet{
+
+#meet {
     font-weight: bolder;
 }
-#ourteam{
+
+#ourteam {
     text-align: center;
+}
+
+#mem1 {
+    margin-left: 100px;
+}
+
+#mem2 {
+    margin-left: 20px;
+
+}
+
+#mem3 {
+    margin-left: 20px;
+}
+
+#mem4 {
+    margin-left: 20px;
+    margin-right: 100px;
 }
