@@ -146,6 +146,41 @@
     height: 477px;
 }
 
+#pics1 {
+    padding-top: 0px;
+    background-color: #fafafa;
+    max-width: 1920px;
+    height: 300px;
+}
+
+#pics2 {
+    padding-top: 100px;
+    background-color: #fafafa;
+    max-width: 1920px;
+    height: 350px;
+}
+
+#camlogo2 {
+    margin-left: 100px;
+    margin-right: 20px;
+    margin-top: 16px
+}
+#miclogo{
+    margin-right: 100px;
+}
+#speckslogo {
+    margin-top: 29px;
+}
+
+#settinglogo {
+    margin-top: 18px;
+}
+#heartlogo{
+    margin-top: 20px;
+    margin-right: 100px;
+}
+
+
 #camera {
     width: 53px;
     height: 39px;
@@ -227,7 +262,7 @@
 
 
 .packages {
-    padding: 1.5em;
+    padding: 10px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -235,7 +270,7 @@
     width: 100%;
     height: 100%;
     opacity: 1;
-    background-image: url('./assets/bgimage.png');
+    background-image: url('./assets/backgrounroom.png');
     background-repeat: no-repeat;
     background-position: 50% 0;
     background-size: cover;
@@ -349,4 +384,29 @@
 .contactUs .btn {
     background-color: #009688;
     color: white;
+}
+#clr{
+    color: #009688;
+}
+#call{
+    background-color: black;
+    color: white;
+    padding-left: 100px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    display: flex;
+}
+#txta{
+    text-align: left;
+}
+#btncall{
+    margin-right: 200px;
+    margin-top: 30px;
+    margin-left: 120px;
+}
+#meet{
+    font-weight: bolder;
+}
+#ourteam{
+    text-align: center;
 }
