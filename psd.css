@@ -510,7 +510,96 @@ hr {
 
 /* map styles */
 
-#mapimg{
-    margin-left: -12px;
+.bg {
+    height: 90px;
+    background-image: url(./assets/Map\ \(2\).png);
+    color: aliceblue;
+    text-align: center;
+    top: 50%;
+    transform: translate(-0%, -0%);
+
+
+
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+}
+
+.probar {
+    margin-right: 180px;
+    width: 1000px;
+
+}
+
+.p-bar {
+    display: flex;
+    background-color: #ebe6e6;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#content {
+    background-color: #fdfdfd;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#green {
+    margin-left: 30px;
+}
+
+#blue {
+    margin-left: 75px;
+}
+
+#yellow {
+    margin-left: 200px;
+}
+
+#red {
+    margin-left: 200px;
+}
+
+.tab {
+    margin-left: 180px;
+    margin-right: 70px;
+
+}
+
+#ipsum {
+    margin-left: 10px;
+}
+.foot{
+    background-color: #19232f;
+    padding-top: 40px;
+    padding-bottom: 120px;
+    color: aliceblue;
+}
+#foot-icon{
+    border-radius: 20px;
+    border: 1px solid rgb(194, 194, 194);
+    width: 30px;
+    height: 30px;
+    padding-top: 5px;
+    margin-left: 10px;
+    text-align: center;
+}
+.foot-top{
+    text-align: center;
+}
+.foot-bottom a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: x-small;
+    margin-left: 100px;
+}
+.foot-bottom{
     
 }
