@@ -26,10 +26,10 @@
                 <i class="fa-sharp fa-solid fa-envelope" id="mailicon"></i>
                 <div class="col" id="mail">contact@domain</div>
                 <!-- icons -->
-                <div style="flex-wrap: no;">
+                <div style="flex-wrap: no;" class="top-logos">
                     <a href="" id="tdec"><i class="fa-brands fa-twitter" id="icon"></i></a>
                     <a href=""><i class="fa-brands fa-linkedin" id="icon"></i></a>
-                    <a href=""><i class="fa-brands fa-square-facebook" id="fb"></i></a>
+                    <a href=""><i class="fa-brands fa-square-facebook" id="icon"></i></a>
                     <a href=""><i class="fa-brands fa-skype" id="icon"></i></a>
                     <a href=""><i class="fa-brands fa-square-pinterest" id="icon"></i></a>
                     <a href=""><i class="fa-brands fa-apple" id="icon"></i></a>
@@ -41,34 +41,29 @@
     <nav id="nav">
         <div>
             <a href="" id="atag"><img src="./assets/Logo.png" id="logo"></a>
-            <div style="display: flex;">
-                <div>
-                    <ul class="nav justify-content-center" id="navtxt">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">HOME</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">DEMOS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">PORTFOLIO</a>
-                        </li>
-                    </ul>
-                </div>
-                <div>
-                    <ul class="nav justify-content-center" id="navtext">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">HOME</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">DEMOS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">PORTFOLIO</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+        </div>
+        <div>
+            <span class="head-top" style="display: flex;">
+                <div><a href="" class="space1">
+                        <p>HOME</p>
+                    </a></div>
+                <div><a href="" class="space2">
+                        <p>ABOUT</p>
+                    </a></div>
+                <div><a href="" class="space3">
+                        <p>SERVICES</p>
+                    </a></div>&nbsp&nbsp
+                <div><a href="" class="space4">
+                        <p>PORTFOLIO</p>
+                    </a></div>&nbsp&nbsp&nbsp&nbsp
+                <div><a href="" class="space5">
+                        <p>BLOG</p>
+                    </a></div>
+                <div><a href="" class="space6">
+                        <p>CONTACT</p>
+                    </a></div>
+                <div class="space7"><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></div>
+            </span>
         </div>
     </nav>
     <!-- carousel -->
@@ -85,16 +80,28 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="./assets/shutterstock_52317865.png" class="d-block w-100" alt="...">
+                <img src="./assets/halfcaropic.png" class="d-block w-100" height="595px" alt="banner">
+                <div class="carousel-caption"
+                    style="margin-bottom: 160px;text-align: left;margin-right: 300px;margin-left: 70px;">
+                    <span>
+                        <h5>Everything you need to have in order to create a</h5>
+                        <h1>STUNNING WEBSITE</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio nisi, architecto
+                            veritatis laudantium non quod ad in ex delectus doloribus itaque ullam enim ea quasi
+                            assumenda pariatur sequi sint consequuntur.</p>
+                    </span>
+                    <button type="button" class="btn btn-outline-secondary"
+                        style="color: rgb(255, 255, 255);border-radius: 0;">Discover Now</button>
+                </div>
             </div>
             <div class="carousel-item">
-                <img src="./assets/shutterstock_52317865.png" class="d-block w-100" alt="...">
+                <img src="./assets/halfcaropic.png" class="d-block w-100" alt="banner">
             </div>
             <div class="carousel-item">
-                <img src="./assets/shutterstock_52317865.png" class="d-block w-100" alt="...">
+                <img src="./assets/halfcaropic.png" class="d-block w-100" alt="banner">
             </div>
             <div class="carousel-item">
-                <img src="./assets/shutterstock_52317865.png" class="d-block w-100" alt="...">
+                <img src="./assets/halfcaropic.png" class="d-block w-100" alt="banner">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -109,25 +116,27 @@
         </button>
     </div>
     <!-- page 2 design -->
-    <div style="display: flex;">
+    <div style="display: flex;" class="vec-icons">
         <div id="dpage">
             <img src="./assets/DESIGN.png" class="img-fluid" alt="design" id="design">
         </div>
         <div id="txt">
-            <pre><p id="cap">WE  LOVE  DESIGN  SHARP  <span style="color:#009688">MULTIPURPOSE</span>  PARALLAX  TEMPLATE</p></pre>
+            <pre><p id="cap">WE LOVE DESIGN SHARP <span style="color:#009688">MULTIPURPOSE</span> PARALLAX TEMPLATE</p></pre>
             <p id="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo eaque optio officiis enim
                 assumenda maxime
-                quam veritatis? Numquam adipisci, distinctio magni dolor quod ratione in sunt reprehenderit qui! Eum ut
-                nobis beatae error voluptatibus corrupti!</p>
-            <img src="./assets/badge.png" class="img-fluid" alt="design" id="laptop">
-
+                quam veritatis? Numquam adipisci, distinctio magni dolor quod ratione in sunt reprehenderit qui!</p>
+            <br><br>
+            <img src="./assets/halflaptop.png" class="img-fluid" alt="design" id="laptop">
         </div>
     </div>
     <!-- logos -->
     <div style="display: flex;" id="pics">
         <!-- camera -->
         <div id="camlogo">
-            <img src="./assets/camgreen.png" class="img-fluid" alt="design" id="camera"><br><br><br>
+            <div class="image">
+                <img src="./assets/camerablack.png" alt="design" id="camera">
+                <img src="./assets/camgreen.png" class="hover-img" alt="design" id="camera">
+            </div><br><br><br>
             <p id="dd"><b>Design & Development</b></p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quia quo consectetur nemo </p>
         </div>
@@ -188,16 +197,6 @@
             </div>
         </div>
     </div><br><br><br><br><br><br><br>
-    <!-- progress bar -->
-    <!-- <section style="display: flex;"> 
-        <div id="box1">
-
-        </div>
-        <div id="box2">
-            
-
-        </div>
-    </section> -->
     <!-- loaders page -->
     <span class="p-bar">
         <section class="tab">
@@ -250,9 +249,7 @@
 
             </div>
         </section>
-    </span>
-
-    <br><br><br><br><br><br><br>
+    </span><br><br><br><br>
     <!-- creative craft -->
     <div style="display: flex;padding-bottom: 80px;">
         <div id="wordings">
@@ -371,11 +368,64 @@
         </div>
     </div>
     <!-- price package -->
+
     <section class="packages">
         <h4>Price Packages</h4>
-        <div class="pck_cover">
-            <!-- standard -->
-            <article id="pck1">
+        <div class="columns1">
+            <ul class="price">
+                <li class="header">STANDARD <br><sup>$</sup><span>507<sub>/mo</sub></span><span>
+                        <p>15 day free trial on all accounts</p>
+                    </span></li>
+                <li class="grey">flnglkngvlf</li>
+                <li class="grey">10GB Storage</li>
+                <li class="grey">10 Emails</li>
+                <li class="grey">10 Domains</li>
+                <li class="grey">1GB Bandwidth</li>
+                <li class="grey">-</li>
+                <li class="grey">-</li>
+                <a href="#" id="getbtn">
+                    <li class="button">Get Started Now</li>
+                </a>
+            </ul>
+        </div>
+        <div class="columns2">
+            <ul class="price">
+                <li class="grey">Most Popular</li>
+                <li class="header">STANDARD <br><sup>$</sup><span>507<sub>/mo</sub></span><span>
+                        <p>15 day free trial on all accounts</p>
+                    </span></li>
+                <li class="grey">flnglkngvlf</li>
+                <li class="grey">10GB Storage</li>
+                <li class="grey">10 Emails</li>
+                <li class="grey">10 Domains</li>
+                <li class="grey">1GB Bandwidth</li>
+                <li class="grey">-</li>
+                <li class="grey">-</li>
+                <a href="#" id="getbtn">
+                    <li class="button2">Get Started Now</li>
+                </a>
+            </ul>
+        </div>
+        <div class="columns3">
+            <ul class="price">
+                <li class="header">STANDARD <br><sup>$</sup><span>507<sub>/mo</sub></span><span>
+                        <p>15 day free trial on all accounts</p>
+                    </span></li>
+                <li class="grey">flnglkngvlf</li>
+                <li class="grey">10GB Storage</li>
+                <li class="grey">10 Emails</li>
+                <li class="grey">10 Domains</li>
+                <li class="grey">1GB Bandwidth</li>
+                <li class="grey">-</li>
+                <li class="grey">-</li>
+                <a href="#" id="getbtn">
+                    <li class="button">Get Started Now</li>
+                </a>
+            </ul>
+        </div>
+
+        <!-- <div class="pck_cover"> -->
+        <!-- <article id="pck1">
                 <div class="top_cover">
                     <p class="toptext">STANDARD</p>
                     <p class="price"><span class="symbol"><sup>$</sup></span><span class="...">507<sub>/mo</sub></span>
@@ -403,8 +453,8 @@
                     <p>Get Started Now</p>
                 </div>
             </article>
-            <!-- premium -->
-            <article id="pck2">
+            premium -->
+        <!-- <article id="pck2">
                 <div class="top_cover">
                     <p id="topline">Most Popular</p>
                     <p class="toptext">PREMIUM</p>
@@ -432,9 +482,9 @@
                 <div class="bottom_cover_green">
                     <p>Get Started Now</p>
                 </div>
-            </article>
-            <!-- ultimate -->
-            <article id="pck3">
+            </article> -->
+        <!-- ultimate -->
+        <!-- <article id="pck3">
                 <div class="top_cover">
                     <p class="toptext">ULTIMATE</p>
                     <p class="price"><span class="symbol"><sup>$</sup></span><span class="...">507<sub>/mo</sub></span>
@@ -466,22 +516,22 @@
             </article>
 
 
-        </div>
+        </div>-->
     </section>
 
     <!-- latest post -->
     <section class="posts">
         <h4>Latest Posts</h4><br>
-        
+
         <div class="post_cover">
             <article id="img1">
-                <img src="./assets/tab.png" alt="blog thumb" >
+                <img src="./assets/tab.png" alt="blog thumb">
                 <h5>Intrustuive services</h5>
                 <p>Lorem ipsum dolor sit amet, conse ctet adipisicing elit. Vitae </p>
                 <a href="#" id="clr">Read More</a>
             </article>
             <article id="img2">
-                <img src="./assets/menwithspecks.png" alt="blog thumb" >
+                <img src="./assets/menwithspecks.png" alt="blog thumb">
                 <h5>Intrustuive services</h5>
                 <p>Lorem ipsum dolor sit amet, consectek adipisicing elit. Vitae fugil</p>
                 <a href="#" id="clr">Read More</a>
