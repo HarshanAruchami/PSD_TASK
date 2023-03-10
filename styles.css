@@ -179,6 +179,8 @@
 
 .teambg-color {
     background-color: #ffffff;
+    margin-left: -42px;
+    margin-right: 12px;
 
 }
 
@@ -196,13 +198,13 @@
 }
 
 #downloadlogo {
-    margin-left: 250px;
+    margin-left: 200px;
     margin-right: 20px;
     margin-top: 16px
 }
 
 #cameralogo {
-    margin-left: 250px;
+    margin-left: 200px;
     margin-right: 20px;
     margin-top: 16px;
 
@@ -210,7 +212,7 @@
 
 
 #miclogo {
-    margin-right: 220px;
+    margin-right: 170px;
 }
 
 #speckslogo {
@@ -223,7 +225,7 @@
 
 #heartlogo {
     margin-top: 20px;
-    margin-right: 220px;
+    margin-right: 170px;
 }
 
 #pics1 {
@@ -254,13 +256,13 @@ background-color:#fdfdfd;
 
 }
 #bulb {
-    width: 41px;
-    height: 64px;
+    width: 38px;
+    height: 59px;
 }
 
 #lock {
-    width: 46px;
-    height: 60px;
+    width: 40px;
+    height: 50px;
 }
 
 #note {
@@ -272,7 +274,7 @@ background-color:#fdfdfd;
     text-align: center;
     margin-left: 140px;
     margin-right: 00px;
-    margin-top: 18px;
+    margin-top: 20px;
 }
 
 #bulblogo {
@@ -293,7 +295,7 @@ background-color:#fdfdfd;
 }
 
 #dd {
-    margin-top: -15px;
+    margin-top: -24px;
 }
 
 #butons {
@@ -539,7 +541,7 @@ li {
 #call {
     background-color: black;
     color: white;
-    padding-left: 250px;
+    padding-left: 200px;
     padding-right: 40px;
     padding-top: 45px;
     padding-bottom: 45px;
@@ -551,9 +553,9 @@ li {
 }
 
 #btncall {
-    margin-right: 200px;
+    margin-right: 155px;
     margin-top: 30px;
-    margin-left: 120px;
+    margin-left: 100px;
 }
 
 #meet {
