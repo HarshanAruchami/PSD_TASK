@@ -170,7 +170,7 @@
 
 #laptop {
     margin-top: 50px;
-    width: 700px;
+    width: 750px;
     height: 350px;
 }
 
@@ -188,11 +188,15 @@
     margin-right: 12px;
 
 }
+body{
+overflow-x: hidden;
+}
 
 #picturemem1 {
     max-width: 1920px;
     height: 300px;
     padding-left: 150px;
+    margin-right: 250px;
 }
 
 #pics2 {
@@ -242,6 +246,7 @@
 #camera {
     width: 53px;
     height: 39px;
+    margin-right: 1210px;
 }
 .image{
     position: absolute;
@@ -571,17 +576,13 @@ li {
     text-align: center;
 }
 
-#mem1 {
-    margin-left: 100px;
-}
-
 #mem2 {
-    margin-left: 20px;
+    margin-left: -60px;
 
 }
 
 #mem3 {
-    margin-left: 20px;
+    margin-left: -60px;
 }
 
 #mem4 {
@@ -627,7 +628,7 @@ hr {
 
 .p-bar {
     display: flex;
-    background-color: #ebe6e6;
+    background-color:#fdfdfd;
     padding-top: 40px;
     padding-bottom: 40px;
 }
@@ -807,3 +808,59 @@ hr {
     margin-left:180px;
     width: 7000px;
 }
+#acrbtn{
+    color: #a29e9e;
+}
+#acrbtn:hover{
+    color: #009688;
+}
+/* hover img */
+.container {
+    position: relative;
+    width: 50%;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    color: black;
+}
+
+.middle {
+    color:#000000;
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container:hover .image {
+    opacity: 0.3;
+}
+
+.container:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    background-color:#009688;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+#pic {
+    margin-top: 37px;
+    margin-left: 190px;
+    text-align: center;
+    padding-right: 27px;
+    padding-left: 20px;
+    padding-top: -20px;
+}z
