@@ -52,12 +52,17 @@
 
 }
 
-#mail {
+#mail{
     margin-left: -255px;
     margin-top: 12px;
     font-size: 12px;
     font: weight 5px;
+    
 
+}
+.textdecor{
+    text-decoration: none;
+    color: #cccccc;
 }
 
 #mailicon {
@@ -706,7 +711,7 @@ hr {
 }
 
 .foot-bottom {
-    margin-left: 250px;
+    margin-left: 200px;
 }
 
 .foot-bottom :hover {
@@ -714,7 +719,7 @@ hr {
 }
 
 .space-copywrite {
-    margin-left: 1040px;
+    margin-left: 990px;
     margin-top: -31px;
     font-size: x-small;
 }
