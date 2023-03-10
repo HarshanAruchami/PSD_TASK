@@ -618,8 +618,10 @@ hr {
 }
 
 .probar {
+    margin-top: 45px;
     margin-right: 180px;
-    width: 1000px;
+    width: 5000px;
+    margin-left: 50px;
 
 }
 
@@ -799,4 +801,9 @@ hr {
 
 #getbtn {
     text-decoration: none;
+}
+/* css acordion */
+#acor-top{
+    margin-left:180px;
+    width: 7000px;
 }
